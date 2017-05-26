@@ -53,7 +53,11 @@ a{
 	font-size: 40px;
 }
 
-*{
+.topic-img {
+	width: 100%;
+}
+
+* {
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -61,41 +65,111 @@ a{
 }
 
 @media (min-width: 300px) {
-	.col-md-4 {float:left}
-	.col-md-8 {float:right;margin: 10px 0 0 0}
-	.title-logo{width:80px;height:80px}
-	.name-super {font-size:25px}
-	.title-super {font-size: 15px}
+	.col-md-4 {
+		float:left
+	}
+	
+	.col-md-8 {
+		float:right;margin: 10px 0 0 0
+	}
+	
+	.title-logo {
+		width:80px;height:80px
+	}
+	
+	.name-super {
+		font-size:25px
+	}
+	
+	.title-super {
+		font-size: 15px
+	}
 }
 
 @media (min-width: 360px) {
-	.col-md-4 {float:left}
-	.title-logo{width:80px;height:80px}
-	.col-md-8 {float:right;margin: 10px 0 0 0}
-	.name-super {font-size:30px}
-	.title-super {font-size: 15px}
+	.col-md-4 {
+		float:left
+	}
+	
+	.col-md-8 {
+		float:right;margin: 10px 0 0 0
+	}
+	
+	.title-logo {
+		width:80px;height:80px
+	}
+	
+	.name-super {
+		font-size:30px
+	}
+	
+	.title-super {
+		font-size: 15px
+	}
 }
 
 @media (min-width: 600px) {
-	.col-md-4 {float:left}
-	.col-md-8 {float:right;margin: 10px 0 0 0}
-	.title-logo{width:100px;height:100px}
-	.name-super {font-size:40px}
-	.title-super {font-size: 25px}
+	.col-md-4 {
+		float:left
+	}
+	
+	.col-md-8 {
+		float:right;margin: 10px 0 0 0
+	}
+	
+	.title-logo {
+		width:100px;height:100px
+	}
+	
+	.name-super {
+		font-size:40px
+	}
+	
+	.title-super {
+		font-size: 25px
+	}
 }
 
 @media (min-width: 768px) {
-	.col-md-4 {float:left}
-	.col-md-8 {float:right;margin: 10px 0 0 0}
-	.title-logo{width:100px;height:100px}
-	.name-super {font-size:45px}
-	.title-super {font-size: 25px}
+	.col-md-4 {
+		float:left
+	}
+	
+	.col-md-8 {
+		float:right;margin: 10px 0 0 0
+	}
+	
+	.title-logo {
+		width:100px;height:100px
+	}
+	
+	.name-super {
+		font-size:45px
+	}
+	
+	.title-super {
+		font-size: 25px
+	}
 }
 
 @media (min-width: 926px) {
-	.col-md-4 {float:left}
-	.col-md-8 {float:right;margin: 0}
-	.title-logo{width:100px;height:100px}
-	.name-super {font-size:65px}
-	.title-super {font-size: 25px}
+	.col-md-4 {
+		float:left
+	}
+	
+	.col-md-8 {
+		float:right;margin: 10px 0 0 0
+	}
+	
+	.title-logo {
+		width:100px;height:100px
+	}
+	
+	.name-super {
+		font-size:65px
+	}
+	
+	.title-super {
+		font-size: 25px
+	}
 }
