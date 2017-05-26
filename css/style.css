@@ -1,0 +1,101 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+}
+
+a{
+	color: #2d3c49;
+}
+
+.horizontal-line {
+	background-image: url("../images/hr.jpg");
+	background-repeat: repeat-x;
+	height: 7px;
+	margin: 10px 0px;
+}
+
+.flexrow {
+	display: flex;
+}
+
+.text-muted {
+	color: #7d97ad;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.name-super {
+	font-size: 65px;
+}
+
+.title-super {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.sub-title {
+	padding: 0px 10px;
+	font-size: 40px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.topic {
+	font-size: 40px;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (min-width: 300px) {
+	.col-md-4 {float:left}
+	.col-md-8 {float:right;margin: 10px 0 0 0}
+	.title-logo{width:80px;height:80px}
+	.name-super {font-size:25px}
+	.title-super {font-size: 15px}
+}
+
+@media (min-width: 360px) {
+	.col-md-4 {float:left}
+	.title-logo{width:80px;height:80px}
+	.col-md-8 {float:right;margin: 10px 0 0 0}
+	.name-super {font-size:30px}
+	.title-super {font-size: 15px}
+}
+
+@media (min-width: 600px) {
+	.col-md-4 {float:left}
+	.col-md-8 {float:right;margin: 10px 0 0 0}
+	.title-logo{width:100px;height:100px}
+	.name-super {font-size:40px}
+	.title-super {font-size: 25px}
+}
+
+@media (min-width: 768px) {
+	.col-md-4 {float:left}
+	.col-md-8 {float:right;margin: 10px 0 0 0}
+	.title-logo{width:100px;height:100px}
+	.name-super {font-size:45px}
+	.title-super {font-size: 25px}
+}
+
+@media (min-width: 926px) {
+	.col-md-4 {float:left}
+	.col-md-8 {float:right;margin: 0}
+	.title-logo{width:100px;height:100px}
+	.name-super {font-size:65px}
+	.title-super {font-size: 25px}
+}
